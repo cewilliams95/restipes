@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import RecipeListPage from "../recipe-list-page/RecipeListPage";
+import CreateRecipePage from "~/create-recipe-page/CreateRecipePage";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -11,6 +11,6 @@ export function meta({}: Route.MetaArgs) {
   ];
 }
 
-export default function Home() {
-  return <RecipeListPage />;
+export default function Create() {
+  return <CreateRecipePage />;
 }

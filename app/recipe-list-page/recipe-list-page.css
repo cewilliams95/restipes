@@ -1,0 +1,9 @@
+.recipe-list {
+  gap: 20px;
+  h2 {
+    font-size: 35px;
+    font-weight: 800;
+  }
+}
+.recipe {
+}
